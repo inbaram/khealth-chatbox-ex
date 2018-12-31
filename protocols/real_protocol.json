@@ -1,0 +1,182 @@
+{
+  "root": "1",
+  "nodes": {
+    "1": {
+      "text":"When were you diagnosed with type 2 diabetes?",
+      "options": [],
+      "multi": false
+    },
+    "2": {
+      "text":"What kind of doctor diagnosed your diabetes?",
+      "options": [],
+      "multi": false
+    },
+    "3": {
+      "text": "What kind of treatment do you take for diabetes?",
+      "options": ["No medication", "Non-insulin medication", "Insulin medication"],
+      "multi": true
+    },
+    "4": {
+      "text": "Which insulin medication do you take?",
+      "options": [],
+      "multi": false
+    },
+    "5": {
+      "text": "What is the frequency of your hypoglycemic episodes?",
+      "options": [],
+      "multi": false
+    },
+    "6": {
+      "text": "What non-insulin medication do you take?",
+      "options": [],
+      "multi": false
+    },
+    "7": {
+      "text": "Do you suffer from any of the following complications of diabetes?",
+      "options": ["Diabetic Neuropathy", "Diabetic Retinopathy", "Cardimyopathy", "Other"],
+      "multi": true
+    },
+    "8": {
+      "text": "Have you been seeing a neurologist?",
+      "options": ["yes", "no"],
+      "multi": false
+    },
+    "9": {
+      "text": "What your last creatinine value?",
+      "options": [],
+      "multi": false
+    },
+    "10": {
+      "text": "Have you been seeing a ophtalmologist?",
+      "options": [],
+      "multi": false
+    },
+    "11": {
+      "text": "Have you been seeing a cradiologist?",
+      "options": [],
+      "multi": false
+    },
+    "12": {
+      "text": "Have you ever suffered from a stroke or heart attack?",
+      "options": [],
+      "multi": false
+    },
+    "13": {
+      "text": "Have you been diagnosed with one or more of the following diseases?",
+      "options": [],
+      "multi": false
+    },
+    "14": {
+      "text": "Do you follow a low sugar diet?",
+      "options": [],
+      "multi": false
+    },
+    "15": {
+      "text": "How many times a week do you exercise for more than 30 minutes?",
+      "options": [],
+      "multi": false
+    }
+  },
+  "edges": [
+    {
+      "source": "1",
+      "target": "2",
+      "text": ""
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "text": ""
+    },
+    {
+      "source": "3",
+      "target": "7",
+      "text": "No medication"
+    },
+    {
+      "source": "3",
+      "target": "6",
+      "text": "Non-insulin medication"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "text": "Insulin medication"
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "text": ""
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "text": ""
+    },
+    {
+      "source": "6",
+      "target": "7",
+      "text": ""
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "text": "Diabetic Neuropathy"
+    },
+    {
+      "source": "7",
+      "target": "10",
+      "text": "Diabetic Retinopathy"
+    },
+    {
+      "source": "7",
+      "target": "11",
+      "text": "Cardimyopathy"
+    },
+    {
+      "source": "7",
+      "target": "12",
+      "text": "Other"
+    },
+    {
+      "source": "8",
+      "target": "9",
+      "text": "yes"
+    },
+    {
+      "source": "8",
+      "target": "12",
+      "text": "no"
+    },
+    {
+      "source": "9",
+      "target": "12",
+      "text": ""
+    },
+    {
+      "source": "10",
+      "target": "12",
+      "text": ""
+    },
+    {
+      "source": "11",
+      "target": "12",
+      "text": ""
+    },
+    {
+      "source": "12",
+      "target": "13",
+      "text": ""
+    },
+    {
+      "source": "13",
+      "target": "14",
+      "text": ""
+    },
+    {
+      "source": "14",
+      "target": "15",
+      "text": ""
+    }
+  ]
+}

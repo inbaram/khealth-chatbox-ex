@@ -1,0 +1,62 @@
+{
+  "root": "1",
+  "nodes": {
+    "1": {
+      "text": "How are you?",
+      "options": ["Great!", "Not bad"],
+      "multi": false
+    },
+    "2": {
+      "text": "Good to ear!",
+      "options": [],
+      "multi": false
+    },
+    "3": {
+      "text": "What do you feel?",
+      "options": ["a", "b", "c"],
+      "multi": true
+    },
+    "4": {
+      "text": "Q a",
+      "options": [],
+      "multi": false
+    },
+    "5": {
+      "text": "Q b",
+      "options": [],
+      "multi": false
+    },
+    "6": {
+      "text": "Q c",
+      "options": [],
+      "multi": false
+    }
+  },
+  "edges": [
+    {
+      "source": "1",
+      "target": "2",
+      "text": "Great!"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "text": "Not bad"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "text": "a"
+    },
+    {
+      "source": "3",
+      "target": "5",
+      "text": "b"
+    },
+    {
+      "source": "3",
+      "target": "6",
+      "text": "c"
+    }
+  ]
+}
