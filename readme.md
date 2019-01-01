@@ -48,7 +48,7 @@ Return relevant question that the user need to answer and optional answers in br
 ---
 **Answer question:**
 
-**Req:** POST `http://localhost:5000/answer-question/{username}`
+**Req:** POST `http://localhost:5000/answer-question/{username}?answer={answer}`
 
 **Res:** Next question / finish quest / error msg because of wrong input.
 
